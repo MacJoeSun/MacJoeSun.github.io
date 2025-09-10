@@ -1,1 +1,1 @@
-# MacJoeSun.github.io
+# I made ts for a friend
