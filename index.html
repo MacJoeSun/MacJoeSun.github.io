@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>bad pics of my friend</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad390);
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+      text-shadow: 2px 2px #fff, 4px 4px #000;
+      color: hotpink;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .pic {
+      border: 10px solid gold;
+      box-shadow: 0 0 30px magenta;
+      border-radius: 20px;
+      overflow: hidden;
+      transform: rotate(-2deg);
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+    .pic:hover {
+      transform: rotate(5deg) scale(1.1);
+      filter: hue-rotate(90deg);
+    }
+    .pic img {
+      width: 100%;
+      display: block;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 1.2em;
+      color: purple;
+      animation: rainbow 5s infinite linear;
+    }
+    @keyframes rainbow {
+      0% {color: red;}
+      25% {color: orange;}
+      50% {color: green;}
+      75% {color: blue;}
+      100% {color: violet;}
+    }
+  </style>
+</head>
+<body>
+  <h1>✨ behold the masterpiece ✨</h1>
+  <div class="gallery">
+    <div class="pic"><img src="pic1.jpg" alt=" "></div>
+    <div class="pic"><img src="pic2.jpg" alt=" "></div>
+    <div class="pic"><img src="pic3.jpg" alt=" "></div>
+  </div>
+  <footer>🔥 truly iconic 🔥</footer>
+</body>
+</html>
